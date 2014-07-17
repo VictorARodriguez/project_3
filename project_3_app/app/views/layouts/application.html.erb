@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="en"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+  	<meta charset="utf-8" />
+
+  	<!-- Uncomment to make IE8 render like IE7 -->
+  	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
+
+  	<!-- Set the viewport width to device width for mobile -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
+
+  	<%= stylesheet_link_tag    "application" %>
+  	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    <%= csrf_meta_tags %>
+  </head>
+
+ <!-- HEADER AREA -->
+
+  <div class="contain-to-grid fixed">
+    <nav class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+             <h1><a href="#">.</a></h1>
+        </li>
+      </ul>
+    </nav>
+  </div>  
+
+
+<!-- CONTENT AREA -->
+
+  <body>  
+    <div class="row">
+    <div class="large-9 columns" role="content">
+ 
+      <article>
+        <h3><a href="#">"The Incredible Pulp" Marvel Comics EIC Axel Alonso Dishes on the Comics Biz</a></h3>
+        <h6>Written by <a href="#">Emmanuele Urena</a> on July 12, 2014</h6>
+        <div class="story1">
+        <img src="http://Marvel.gif/500x240"/>
+          </div>
+        <div class="row">
+          <div class="large-11 columns">
+            <p>Today comic book movies rule the cinematic roost -- and the likes of Iron Man, Captain America, Thor and the Avengers prove we live in a Marvel universe. Yet, before our favorite Marvel avengers hit the silver screen they were birthed on the pulp pages by some pretty creative geniuses. While all of the attention was generally focused on the fictional figures, little was known about the minds or people that dreamt up these characters. 
+            </p>
+            <p>Axel Alonso, Editor-in-Chief of Marvel Comics, is one of those geniuses and is partly responsible for the introduction of some of the new, hottest and diverse faces in comic books today. ‘LLERO caught up with the award-winning Marvel jefe to gain insight into the good, bad and ugly of the comic book game as well as the changing shades and characters of the Marvel universe.</p>
+          </div>
+        </div>
+      </article>
+ 
+      <hr/>
+ 
+      <article>
+ 
+        <h3><a href="#">WWE Divas The Bella Twins Chat with 'LLERO</a></h3>
+        <h6>Written by <a href="#">Navani Otero</a> on July 4, 2014</h6>
+        <div class="story2">
+            <img src="http://Bella2.jpg/550x240"/>
+            </div>
+        <div class="row">
+          <div class="large-11 columns">
+            <p>Brianna Garcia-Colace and Nicole Garcia-Colace have always had a flair for competition. Better known to their fans as The Bella Twins, the Mexican-Italian duo have taken their love of competing and winning and made a name for themselves as WWE Divas.</p>
+            <p>The 29-year-olds, who came on the pro-wrestling scene in 2007, have been using their “twin power” to tag team during matches and are still going strong. After taking a year off the two are back, bearing all in a new reality show, “Total Divas.” In the show, fans get an inside look at the drama, the glamour and the romance that goes on in their lives both in and out of the ring.</p>
+ 
+            <p>On the heels of the show’s premiere ‘LLERO sat down with the beautiful gemelas to discuss romance, championships and what they love most about Latino men.</p>
+          </div>
+        </div>
+      </div>
+ 
+    </article>
+ 
+    </div>
+
+    <hr/>
+
+<article>
+ 
+        <h3><a href="#">Brasilian Football Gets Platon'd</a></h3>
+        <h6>Written by <a href="#">'LLERO Edit Staff</a> on June 15, 2014</h6>
+        <div class="story3">
+            <img src="http://Brasilian_Football2.jpg/550x240"/>
+            </div>
+        <div class="row">
+          <div class="large-11 columns">
+            <p>It all starts now – The World Cup arrives and the world gets one time zone with Rio De Janeiro at the center of the futbol universe. So isn’t it only fitting that the Brasilian National Football Team gets a little extra shine? To capture the heart and soul of the Brasilian National Football Team, Nike invited renowned photographer Platon to photograph the Confederations Cup champions.</p>
+            <p>In case you didn’t know, this ain’t no TMZ photographer. European photog Platon is world-renowned and has photographed some the world’s most influential and prominent figures, including presidents, actors and innovators.</p> 
+            <p>To celebrate Brasilian football, culture and style Platon captured several iconic Brasilians wearing the new Brasil National Team home jersey. Among his subjects were some of Brasil’s leading players including Neymar, David Luiz, Thiago Silva, Paulinho and Bernard.</p>
+          </div>
+        </div>
+      </div>
+ 
+    </article>
+ 
+    </div>
+
+    <hr/>
+<!-- CONTENT AREA -->
+
+    <div class="footer-bottom">
+    <div class="row">
+        <ul 
+          </ul>
+      </div>
+       <div class="large-8 columns">
+          <ul class="links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Sitemap</a></li>
+         </ul>
+         <p class="copyright">© 2014 JAWS Communications, LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </div>    
+   
+</html>
